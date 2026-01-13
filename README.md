@@ -1,4 +1,4 @@
-# 🌐 Smart IoT Lighting System | ESP32 & Node-RED
+# Smart IoT Lighting System | ESP32 & Node-RED
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Hardware](https://img.shields.io/badge/Hardware-ESP32-blue)
@@ -11,7 +11,7 @@ This repository contains the complete firmware and architectural design for an *
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 The system is designed to simulate a smart residential lighting solution with energy efficiency analytics. It collects telemetry data from a **PIR** sensor (motion) and an **LDR** (luminosity), publishing this information as **JSON** payloads.
 
@@ -23,7 +23,7 @@ The system is designed to simulate a smart residential lighting solution with en
 
 ---
 
-## 📸 System Architecture & Wiring
+## System Architecture & Wiring
 
 The hardware simulation was designed in **Wokwi**.
 
@@ -34,7 +34,7 @@ The hardware simulation was designed in **Wokwi**.
 
 ---
 
-## 📊 Real-Time Monitoring Dashboard
+## Real-Time Monitoring Dashboard
 
 The user interface is built on **Node-RED Dashboard**, offering a clean layout for monitoring sensors, controlling the actuator, and analyzing energy costs.
 
@@ -63,7 +63,7 @@ A dedicated section tracks the financial impact and energy usage throughout the 
 
 ---
 
-## 🛠️ Backend Logic (Node-RED)
+## Backend Logic (Node-RED)
 
 The logic layer manages the data flow, handles the JSON parsing, calculates costs, and applies conditional rules (Auto/Manual/Eco modes).
 
@@ -73,7 +73,7 @@ The logic layer manages the data flow, handles the JSON parsing, calculates cost
 
 ---
 
-## 📡 API & Data Structure
+## API & Data Structure
 
 The system communicates via MQTT using JSON formatted payloads.
 
